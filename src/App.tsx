@@ -28,6 +28,11 @@ function App() {
         <>
           <h3>Correct!</h3>
           <p>Welcome.</p>
+          <button
+            onClick={() => (setCorrectPassword(false), setPressedNumbers([]))}
+          >
+            Log out
+          </button>
         </>
       ) : (
         <div className="container">
